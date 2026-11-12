@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive creative agency landing page using pure HTML and CSS.">
+  <title>Mountain Landing | Agency</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page--agency">
+  <!-- Main page container -->
+  <main>
+    <!-- Top mountain banner -->
+    <header class="agency-banner" role="img" aria-label="Snowy mountain range beneath a cloudy sky"></header>
+
+    <!-- Our workflow: three steps shown in equal-width cards -->
+    <section class="process" aria-label="How we work">
+      <div class="process__grid">
+        <!-- Process step 1: SVG icon, heading and text -->
+        <article class="process-card">
+          <svg class="process-card__icon" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+            <path d="m5.9 2.4 1.2 2.4 2.5 1.1-2.5 1.2-1.2 2.4-1.1-2.4-2.5-1.2 2.5-1.1 1.1-2.4Zm11.8 0 .9 1.8 1.8.9-1.8.8-.9 1.8-.8-1.8-1.9-.8 1.9-.9.8-1.8ZM9.2 9.3l5.5 5.5-6.9 6.9a2 2 0 0 1-2.8-2.8l4.2-4.2-2.8-2.8 2.8-2.6Zm7-2.2a2.1 2.1 0 0 1 3 3l-2 2-3-3 2-2ZM3.1 13l1 1.9 1.9 1-1.9 1-1 1.9-1-1.9-1.9-1 1.9-1 1-1.9Z"/>
+          </svg>
+          <h2>Tell Us Your Idea</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.</p>
+        </article>
+
+        <!-- Process step 2: SVG icon, heading and text -->
+        <article class="process-card">
+          <svg class="process-card__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 3h12l4 6-10 12L2 9l4-6Z"/>
+            <path d="M2 9h20M6 3l6 18L18 3"/>
+          </svg>
+          <h2>We Will Do All The Work</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.</p>
+        </article>
+
+        <!-- Process step 3: SVG icon, heading and text -->
+        <article class="process-card">
+          <svg class="process-card__icon" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm0 2c1.1 0 2.1.2 3 .6l-1.1 2-2.3.2L10.8 9l1.9 2.2-1.3 2.4-2.8-.4-1.1-2.4-2.3-.7c.6-3.5 3.4-6.1 6.8-6.1Zm1.2 15.8-1.1-2.2.6-2 3.2-1.4.6-3 2.6-.5A8 8 0 0 1 13.2 19.8Z"/>
+          </svg>
+          <h2>Your Product Is Worldwide</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Services area: oversized section title and detailed service cards -->
+    <section class="services" aria-labelledby="services-title">
+      <div class="section-heading">
+        <h2 id="services-title">services</h2>
+        <p>Don't be busy, be productive</p>
+      </div>
+      <!-- Two-column layout: service descriptions and an illustration -->
+      <div class="services__layout">
+        <div class="services__grid">
+          <!-- Service item: icon and explanation -->
+          <article class="service">
+            <svg class="service__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 20 4-1 11-11-3-3L5 16l-1 4Z"/><path d="m14 7 3 3M16 5l2-2 3 3-2 2"/></svg>
+            <div><h3>Graphic Design</h3><p>Graphic design is the process of visual communication and problem-solving using typography, photography and illustration.</p></div>
+          </article>
+          <!-- Service item: icon and explanation -->
+          <article class="service">
+            <svg class="service__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m10 13 4-4M8.5 15.5 6 18a3 3 0 0 1-4-4l4-4a3 3 0 0 1 4 0M15.5 8.5 18 6a3 3 0 0 1 4 4l-4 4a3 3 0 0 1-4 0"/></svg>
+            <div><h3>Web Design</h3><p>Web design encompasses many different skills and disciplines in the production and maintenance of websites.</p></div>
+          </article>
+          <!-- Service item: icon and explanation -->
+          <article class="service">
+            <svg class="service__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+            <div><h3>UI &amp; UX</h3><p>We create thoughtful interfaces that connect attractive design with a simple and engaging user experience.</p></div>
+          </article>
+          <!-- Service item: icon and explanation -->
+          <article class="service">
+            <svg class="service__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5M8 13h4M8 17h8"/></svg>
+            <div><h3>Web Development</h3><p>From idea to finished site, we build clean and responsive digital experiences across screen sizes.</p></div>
+          </article>
+        </div>
+        <div class="services__visual" aria-hidden="true"><div class="services__visual-inner"><span></span><span></span><span></span></div></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
